@@ -1,0 +1,108 @@
+
+ 1. How the `for` Loop Works (Step-by-Step)
+
+A `for` loop follows a fixed four-step execution cycle for every iteration:
+
+ 1. Initialization
+
+ Executed only once at the beginning of the loop.
+ Used to initialize the loop control variable.
+ Example:
+
+  ```java
+  int i = 0;
+  ```
+
+ 2. Condition Check
+
+ Evaluated before each iteration.
+ If the condition is true, the loop body executes.
+ If false, the loop terminates immediately.
+
+ 3. Body Execution
+
+ Contains the statements inside `{ }`.
+ Executes as long as the condition remains true.
+
+ 4. Update (Increment/Decrement)
+
+ Executes after the loop body.
+ Modifies the loop variable (e.g., `i++`, `i--`).
+ Control then returns to Step 2 (Condition Check).
+
+🔁 This cycle repeats until the condition becomes false.
+
+---
+
+ 2. Practice Roadmap to Master `for` Loops
+
+To gain full mastery over loops, practice problems in increasing levels of difficulty.
+
+---
+
+ Level 1: Basic Counting
+
+Focus: Understanding loop control and iteration.
+
+ Print numbers from 1 to 100.
+ Print all even numbers from 1 to 50 using `i += 2`.
+ Create a countdown from 10 to 1 using `i--`.
+
+---
+
+ Level 2: Accumulating Data
+
+Focus: Using loops to process values.
+
+ Summation
+
+ Calculate the sum of the first 100 natural numbers.
+
+ Factorial
+
+ Compute the factorial of a number.
+  Example:
+  [
+  5! = 5 \times 4 \times 3 \times 2 \times 1
+  ]
+
+ Digit Sum
+
+ Given a number like 8729, find the sum of its digits:
+  [
+  8 + 7 + 2 + 9 = 26
+  ]
+ Achieved by repeatedly extracting digits using loops.
+
+---
+
+ Level 3: Arrays & Strings
+
+Focus: Traversing collections using loops.
+
+ Iterate through an array and print all elements.
+ Find the largest element in an array.
+ Practice the Enhanced `for` Loop:
+
+  ```java
+  for (Type item : collection)
+  ```
+
+   Used when index values are not required.
+   Improves readability and reduces errors.
+
+---
+
+ Level 4: Nested Loops (Pattern Problems)
+
+Focus: Understanding loop-within-loop execution.
+
+ Nested loops execute the inner loop completely for each iteration of the outer loop.
+ Used extensively in pattern printing.
+
+ Practice Patterns
+
+ Square pattern using ``
+ Right-angled triangle
+ Pyramid and inverted pyramid patterns
+
